@@ -1,0 +1,40 @@
+{
+  "grammars": [
+    {
+      "name": "powershell",
+      "camelcase": "Powershell",
+      "scope": "source.ps1",
+      "path": ".",
+      "file-types": [
+        "ps1",
+        "psm1"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ],
+      "injection-regex": "^(ps1|psm1)$"
+    }
+  ],
+  "metadata": {
+    "version": "1.2.0",
+    "license": "MIT",
+    "description": "",
+    "authors": [
+      {
+        "name": "William Woodruff",
+        "email": "william@yossarian.net"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/woodruffw-forks/tree-sitter-powershell"
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "node": false,
+    "python": false,
+    "rust": true,
+    "swift": false
+  }
+}
