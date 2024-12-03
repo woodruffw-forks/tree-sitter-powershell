@@ -19,8 +19,14 @@
     "version": "1.2.0",
     "license": "MIT",
     "description": "",
+    "authors": [
+      {
+        "name": "William Woodruff",
+        "email": "william@yossarian.net"
+      }
+    ],
     "links": {
-      "repository": "https://github.com/tree-sitter/tree-sitter-powershell"
+      "repository": "https://github.com/woodruffw-forks/tree-sitter-powershell"
     }
   },
   "bindings": {
